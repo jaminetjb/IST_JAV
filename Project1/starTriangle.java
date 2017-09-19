@@ -1,8 +1,13 @@
-// Jacob Jaminet
-// 19 Sept 2017
-// IST-JAV
-// INSA-Lyon
-// This program takes in command line arguments and prints a (2N + 1)-by-(2N + 1) triangle
+/***
+ * 
+ * @author Jacob Jaminet
+ * 19 Sept 2017
+ * IST-JAV
+ * INSA-Lyon
+ * This program takes in command line arguments, n, and prints a (2N + 1)-by-(2N + 1) triangle
+ * 
+ */
+
 
 public class starTriangle {
 

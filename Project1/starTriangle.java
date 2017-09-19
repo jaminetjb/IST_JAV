@@ -19,7 +19,7 @@ public class starTriangle {
 				for(int j = n; j >= 1; j--){ 							//this is where we start going down, now using n as our starting value
 					System.out.println(starTriangle); 					//repeated value of the starTriangle variable
 					index = index - 2;									//move the 'reading frame' down from the right
-					starTriangle = starTriangle.substring(0, index); 	//using the index, we can print less and less of the variable and 'substract' away from it
+					starTriangle = starTriangle.substring(0, index); 	//using the index, we can print less and less of the variable and 'subtract' away from it
 				}
 			}else{
 				System.out.println(starTriangle);						//this printed out the top half of our triangle	
@@ -27,9 +27,9 @@ public class starTriangle {
 		}
 	}
 	
-	public static void main(String[] args) { 							//in Java, command-line argumentds are passed in as an array and can be referenced as such
+	public static void main(String[] args) { 							//in Java, command-line arguments are passed in as an array and can be referenced as such
 		for(int g = 0; g < args.length;g++) 							//for as many command-line arguments as we have...
-			starTriangle(Integer.parseInt(args[g])); 					//execute the method with each of the arguments 
+			starTriangle(Integer.parseInt(args[g])); 					//the arguments are passed from the command line as an array of objects. 
 	}
 
 }

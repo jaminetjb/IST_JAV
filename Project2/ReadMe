@@ -1,0 +1,2 @@
+This project models a parking plaza. There are three types of car: normal cars, electric cars, and handicap cars.
+The operator class contains the main method and does all of the work of the project.

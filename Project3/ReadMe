@@ -1,0 +1,22 @@
+This project is an improved version of project 2.
+This models a parking plaza with different levels each with different number and types of spaces. 
+Different vehicles that can use this parking deck are Vehicles which can be cars, electric, or compact, Buses which can be passenger vans or charter buses, and bikes which can be motorbikes or regular bikes. 
+The ParkingLot.java is the driver for this project.
+ParkingLot accepts a file through command line arguments to build the parking deck. The first word is keyword that specifies what to add to each floor. 
+
+Example:
+Floor 1
+Total 50
+Electric 20
+Compact 10
+Entrance north 2 true
+Exit south 2 true
+
+Floor 2
+Total 40
+Electric 10
+Compact 5
+Entrance north 2 true
+Exit south 2 true
+
+Eventually, this project will accept a second file with car specifications and if they are leaving or entering the parking deck. 

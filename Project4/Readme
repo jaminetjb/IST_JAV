@@ -1,0 +1,8 @@
+This project is to create and implement a binary search tree.
+The algorithm for this tree was taken from http://algorithms.tutorialhorizon.com/binary-search-tree-complete-implementation/ by SJ
+
+The Node class fills the node with null data and places nulls for the right hand side (rhs) and left hand side (lhs). 
+
+The BinarySearchTree class has a default constructor which makes a null root node. 
+The BinarySearchTree class has methods for find, delete, getSuccessor, insert, and display. 
+The BinarySearchTree as modeled can only hold information of type int.
